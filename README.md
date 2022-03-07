@@ -1,2 +1,0 @@
-# njonjo_portfolio
- 
