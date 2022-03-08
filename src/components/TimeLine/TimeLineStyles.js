@@ -152,3 +152,14 @@ export const CarouselButtonDot = styled.div`
   width: 3px;
   height: 3px;
 `
+
+/*export const profileImg = styled.jpg`
+  margin-right: 21px;
+  -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+  width: 100%;
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  }
+` */
