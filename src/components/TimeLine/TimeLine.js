@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
-import { Section, SectionDivider, SectionText, SectionTitle, Form, Input } from '../../styles/GlobalComponents';
+import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode, profileImg } from './TimeLineStyles';
+import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
@@ -44,25 +44,17 @@ if (carouselRef.current) {
 
   return (
     <Section id="about">
-      <div class="Container">
-        <div class="row gtr-150">
-          <div class="col-6 col-12-medium">
-            <SectionTitle>About Me</SectionTitle>
-            <header class="major">
-              <h2>I'm a Game Developer based in Boston, MA.</h2>
-            </header>
-            <SectionText>
-              <p>Solving problems and providing elegant, innovative and accessible solutions is a passion of mine.</p>
-              <p>When I'm not coding you can find me playing guitar, learning german or playing videos games ofcourse.</p>
-            </SectionText>
-          </div>
-        </div>
-        <div class="col-6 col-12-medium">
-          <span class="image fit">
-            <img id="profile" src="images/profile.jpg" alt="Njonjo"/>
-          </span>
-      </div>
-      </div>
+      <SectionTitle>About Me</SectionTitle>
+        <header class="major">
+          <h2>I'm a Game Developer based in Boston, MA.</h2>
+        </header>
+        <profileImg>
+         <img id="profile" src="images/profile.jpg" alt="Njonjo"/>
+        </profileImg>
+        <SectionText>
+          <p>Solving problems and providing elegant, innovative and accessible solutions is a passion of mine.</p>
+          <p>When I'm not coding you can find me playing guitar, learning german or playing videos games ofcourse.</p>
+        </SectionText>
 
         <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
           <>

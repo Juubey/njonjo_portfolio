@@ -22,8 +22,8 @@ export const projects = [
     description: "The Second project I worked on for MassDigi with oversight from Dejobaan Games LLC, an indie games studio based in Boston, MA. This project was never released but it was a 3D puzzler similar to chess with a unique twist on gameplay.",
     image: '/images/3.png',
     tags: ['UnityEngine', 'C#', 'Maya3D',],
-    visit: 'https://drive.google.com/file/d/17Ksl4YuqhcxUSDBnGMS2sqQloYNYvLRy/view?usp=sharing',
-    source: 'https://drive.google.com/file/d/17Ksl4YuqhcxUSDBnGMS2sqQloYNYvLRy/view?usp=sharing',
+    visit: 'https://drive.google.com/file/d/0BzYY85MgolVxUzZNNkdGSGJsNEk/view?usp=sharing&resourcekey=0-P5eol2W2H7M8XJhhQa8H5w',
+    source: 'https://drive.google.com/file/d/0BzYY85MgolVxUzZNNkdGSGJsNEk/view?usp=sharing&resourcekey=0-P5eol2W2H7M8XJhhQa8H5w',
     id: 2,
   },
   {
@@ -40,8 +40,8 @@ export const projects = [
     description: "This is a code repository for snippets of my code that I'm allowed to share from my projects I've worked on.",
     image: '/images/5.png',
     tags: ['Javascript', 'C++', 'C#', 'React.js', ],
-    visit: '',
-    source: '',
+    visit: 'https://github.com/Juubey/Code-Snippets',
+    source: 'https://github.com/Juubey/Code-Snippets',
     id: 4,
   },
   {
@@ -49,8 +49,8 @@ export const projects = [
     description: "My current project in development, more info soon.",
     image: '/images/6.png',
     tags: ['Unity2D', 'Aseprite', 'Live2D'],
-    visit: '',
-    source: '',
+    visit: 'https://github.com/Juubey/Developing-A-Game',
+    source: 'https://github.com/Juubey/Developing-A-Game',
     id: 5,
   },
 ];
