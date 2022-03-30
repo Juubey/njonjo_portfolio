@@ -7,7 +7,7 @@ const { TextArea } = Input;
 
 function Contact(){
 return (
-  <contactBlock>
+  <ContactBlock>
     <div className="containter-fluid">
       <div className="titleHolder">
         <SectionTitle main>Let's connect!</SectionTitle>
@@ -81,7 +81,7 @@ return (
     <div/>
 
     </div>
-  </contactBlock>
+  </ContactBlock>
   );
 }
 
