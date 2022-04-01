@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@netlify/plugin-nextjs": "^4.2.7",
-    "netlify-cli": "^9.12.3"
+    "babel-plugin-styled-components": "^2.0.6",
+    "netlify-cli": "^8.14.1"
   }
 }
