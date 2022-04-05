@@ -19,10 +19,11 @@ const Home = () => {
       <Projects />
       <Technologies />
       <Timeline />
-      <Acomplishments />
       <Contact />
     </Layout>
   );
 };
+//<Acomplishments /> removed for now
+//<ScrollToTop /> removed for now
 
 export default Home;

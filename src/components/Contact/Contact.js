@@ -1,13 +1,14 @@
 import React from 'react';
+import styled from 'styled-components';
 import { Section, SectionDivider, SectionText, SectionTitle,} from '../../styles/GlobalComponents';
-/**import { contactBlock, textarea, iframe, button }from './ContactStyles';**/
+import { contactblock, textarea, iframe, button }from './ContactStyles';
 
 import {Form, Input, Button } from 'antd';
 const { TextArea } = Input;
 
 function Contact(){
 return (
-  <contactBlock>
+  <contactblock>
     <div className="containter-fluid">
       <div className="titleHolder">
         <SectionTitle main>Let's connect!</SectionTitle>
@@ -16,8 +17,8 @@ return (
 
         <iframe
         class="scribd_iframe_embed"
-        title="Albert Njubi Resume.pdf"
-        src="https://www.scribd.com/embeds/478032261/content?start_page=1&view_mode=scroll&access_key=key-OyEo06HE6YnryccilJQV"
+        title="Albert Njubi CV MA" 
+        src="https://www.scribd.com/embeds/567590312/content?start_page=1&view_mode=scroll&access_key=key-Y6x2Cd4WR5BDqdjbIgTK"
         tabindex="0"
         data-auto-height="true"
         data-aspect-ratio="0.7729220222793488"
@@ -30,6 +31,7 @@ return (
         <SectionText>Email me at: <strong>albert.njubi1@gmail.com</strong><br />
           Or send me a quick message here:</SectionText>
       </div>
+      
       <Form
         name="contactForm"
         className="form"
@@ -37,6 +39,7 @@ return (
         data-netlify="true"
         type="hidden"
         initialValues={{ remembered: true }}
+        data-netlify-recaptcha="true"
       >
         <Form.Item
           name="Full Name"
@@ -65,23 +68,25 @@ return (
           name="Message"
           type="hidden"
         >
-          <TextArea placeholder="Form Submissions are Disabled for the time being. If you need me, please reach out via Email" />
+          <div class="field">
+          <TextArea placeholder="Message me here!" name="message" id="message" cols="50"/>
+					</div>
         </Form.Item>
 
         <Form.Item>
-          <Button type="default">
-            Send
-          </Button>
-          <Button type="reset" htmlType="reset">
-            Reset
-          </Button>
+          <ul class="actions">
+						<li>
+              <div data-netlify-recaptcha="true"></div>
+            <Button type="submit" value="Send" class="button primary">Send</Button>
+            <Button type="reset" value="Reset" class="button primary">Reset</Button>
+            </li>
+					</ul>
         </Form.Item>
 
       </Form>
     <div/>
-
-    </div>
-  </contactBlock>
+  </div>
+  </contactblock>
   );
 }
 

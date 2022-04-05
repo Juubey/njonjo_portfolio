@@ -44,9 +44,10 @@ if (carouselRef.current) {
 
   return (
     <Section id="about">
+      <SectionDivider/>
       <SectionTitle>About Me</SectionTitle>
         <header class="major">
-          <h2>I'm a Game Developer based in Boston, MA.</h2>
+          <h2>I'm a Game Developer previously based in Boston, MA. Now living in Cologne, Germany.</h2>
         </header>
         <profileImg>
          <img id="profile" src="images/profile.jpg" alt="Njonjo"/>

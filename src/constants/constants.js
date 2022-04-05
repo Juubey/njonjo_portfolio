@@ -4,8 +4,8 @@ export const projects = [
     description: "My second finished game project which was a simple 2D Updown shooter game project that I developed along with four other students as a team project",
       image: '/images/1.png',
       tags: ['Unity3D', 'C#', 'Slack'],
-    visit: 'https://albert-njubi.itch.io/iron-dragon',
-    source: 'https://drive.google.com/file/d/0B7ATRzHVp3tmNGgtbWVvWDFmb3c/view?usp=sharing&resourcekey=0-L0v2MqlW__Cc7TZLH6T36g',
+    visit: 'Web_Builds\thisship_webgl\_ThisShip.html',
+    source: 'https://albert-njubi.itch.io/iron-dragon',
     id: 0,
   },
   {
@@ -13,8 +13,8 @@ export const projects = [
     description:"While Intering at MassDigi I was brought on as a junior programmer for a turn based, pixel style project which was to be published on the google play store.",
     image: '/images/2.jpg',
     tags: ['Playstore', 'Unity2D'],
-    visit: 'https://drive.google.com/file/d/17Ksl4YuqhcxUSDBnGMS2sqQloYNYvLRy/view?usp=sharing',
-    source: 'https://play.google.com/store/apps/details?id=com.massdigi.gladiator&hl=en',
+    visit: 'Web_Builds\gladiator_build\_CC.html',
+    source: 'https://albert-njubi.itch.io/colloseum-coach',
     id: 1,
   },
   {
@@ -22,8 +22,8 @@ export const projects = [
     description: "The Second project I worked on for MassDigi with oversight from Dejobaan Games LLC, an indie games studio based in Boston, MA. This project was never released but it was a 3D puzzler similar to chess with a unique twist on gameplay.",
     image: '/images/3.png',
     tags: ['UnityEngine', 'C#', 'Maya3D',],
-    visit: 'https://drive.google.com/file/d/0BzYY85MgolVxUzZNNkdGSGJsNEk/view?usp=sharing&resourcekey=0-P5eol2W2H7M8XJhhQa8H5w',
-    source: 'https://drive.google.com/file/d/0BzYY85MgolVxUzZNNkdGSGJsNEk/view?usp=sharing&resourcekey=0-P5eol2W2H7M8XJhhQa8H5w',
+    visit: 'Web_Builds\ALK WebGl\_ALK.html',
+    source: 'https://albert-njubi.itch.io/about-last-knight',
     id: 2,
   },
   {
