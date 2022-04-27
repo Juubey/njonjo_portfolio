@@ -1,23 +1,29 @@
 import styled from 'styled-components';
 
-export const Heading = styled.h1`
-text-align: center;
-color: green;
-`;
 
-export const Content = styled.div`
-overflowY: scroll;
-height: 2500px;
-`;
-
-export const Button = styled.div`
-position: fixed;
-width: 100%;
-left: 50%;
-bottom: 40px;
-height: 20px;
-font-size: 3rem;
-z-index: 1;
-cursor: pointer;
-color: green;
+export const backtotop = styled.div`
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #149ddd;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.4s;
+`
+export const backtotopi = styled.div`
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+`  
+export const backtotophover = styled.div`
+    background: #2eafec;
+    color: #fff;
+`
+export const backtotopactive = styled.div`
+    visibility: visible;
+    opacity: 1;
 `
