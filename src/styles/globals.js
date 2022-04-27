@@ -32,6 +32,11 @@ const GlobalStyles = createGlobalStyle`
     list-style: none;
   }
 
+  /* Cursor */
+  .txt-type > .txt {
+    border-right: 0.2rem solid #777;
+  }
+
 `;
 
 export default GlobalStyles;

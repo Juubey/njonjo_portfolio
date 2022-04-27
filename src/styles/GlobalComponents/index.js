@@ -75,6 +75,12 @@ export const SectionText = styled.p`
     padding-bottom: 16px;
   }
 `
+export const TxtType = styled.span`
+.txt-type > .txt {
+  border-right: 0.2rem solid #777;
+}
+
+`
 
 export const SectionDivider = styled.div`
 
