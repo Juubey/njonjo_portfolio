@@ -20,7 +20,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>★ Making Software and Having Fun! ★ <ExternalLinks href="https://github.com/Juubey/njonjo_portfolio">View Source</ExternalLinks></Slogan>
+          <Slogan>★ Made personally with love and <a href="https://www.netlify.com/">Netlify</a> ★ <LinkItem href="https://github.com/Juubey/njonjo_portfolio">View Source</LinkItem></Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/Juubey">

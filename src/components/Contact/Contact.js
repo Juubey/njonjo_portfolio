@@ -18,8 +18,8 @@ return (
 
         <iframe
         class="scribd_iframe_embed"
-        title="Albert Njubi CV MA" 
-        src="https://www.scribd.com/embeds/567590312/content?start_page=1&view_mode=scroll&access_key=key-Y6x2Cd4WR5BDqdjbIgTK"
+        title="Albert Njubi Resume" 
+        src="https://drive.google.com/file/d/1RB4cUJ6JR5l0HsAMWKoH5ZBfFicf3R-D/preview"
         tabindex="0"
         data-auto-height="true"
         data-aspect-ratio="0.7729220222793488"
