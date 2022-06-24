@@ -73,9 +73,9 @@ const Hero = () => (
       <SectionTitle main center>
         Hi there, I'm Njonjo Njubi,<br />
         I'm a 
-        <a href="" class="typewrite" data-period="2000" data-type='[ " Developer", " Designer", " Freelancer"]'>
+        <a href="" class="typewrite" data-period="2000" data-type='[ " Developer.", " Designer.", " Freelancer."]'>
           <span class="wrap"></span>
-        </a>.     
+        </a>     
       </SectionTitle>
       <SectionText>
       Please take a look around, see what I've been up to, and let's see what we can build together.<br />
@@ -83,7 +83,7 @@ const Hero = () => (
       </SectionText>
       <ul>
         <li>
-          <Button onClick={() => window.location = 'https://github.com/Juubey' }>Need a Software Developer?</Button>
+          <Button onClick={() => window.location = 'https://github.com/Juubey' }>Need a Software Dev?</Button>
           <Button onClick={() => window.location = 'https://albert-njubi.itch.io/' }>Need a Game Dev?</Button>
         </li>
       </ul>

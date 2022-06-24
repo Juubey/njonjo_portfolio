@@ -30,6 +30,11 @@ const Header = () =>  (
           <NavLink>About</NavLink>
         </Link>
       </li>
+      <li>
+        <a href="https://juubey.github.io/Juubey/">
+          <NavLink>Resume</NavLink>
+        </a>
+      </li>
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/Juubey">

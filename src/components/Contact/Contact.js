@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Section, SectionDivider, SectionText, SectionTitle,} from '../../styles/GlobalComponents';
 import { contactblock, textarea, iframe, button }from './ContactStyles';
+import { LinkItem} from '../Footer/FooterStyles';
 
 import {Form, Input, Button } from 'antd';
 const { TextArea } = Input;
@@ -17,18 +18,18 @@ return (
 
         <iframe
         class="scribd_iframe_embed"
-        title="Albert Njubi CV MA" 
-        src="https://www.scribd.com/embeds/567590312/content?start_page=1&view_mode=scroll&access_key=key-Y6x2Cd4WR5BDqdjbIgTK"
+        title="Albert Njubi Resume" 
+        src="https://drive.google.com/file/d/1RB4cUJ6JR5l0HsAMWKoH5ZBfFicf3R-D/preview"
         tabindex="0"
         data-auto-height="true"
         data-aspect-ratio="0.7729220222793488"
         scrolling="no"
         width="100%"
-        height="600"
+        height="500"
         frameborder="0">
       </iframe>
 
-        <SectionText>Email me at: <strong>albert.njubi1@gmail.com</strong><br />
+        <SectionText>Email me at: <strong><LinkItem href="mailto:biz@albertnjubi.com">biz@albertnjubi.com</LinkItem></strong><br />
           Or send me a quick message here:</SectionText>
       </div>
       
