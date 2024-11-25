@@ -89,6 +89,16 @@ export const Slogan = styled.p`
 	line-height: 30px;
 	padding: 1rem;
 
+	a:link, a:visited {
+  	color: yellow;
+  	text-decoration: blink;
+  	cursor: auto;
+	}
+
+	a:link:active, a:visited:active {
+  	color: yellow;
+	}
+
 	@media ${props => props.theme.breakpoints.md}{
 		font-size: 16px;
 		line-height: 28px;
