@@ -31,7 +31,7 @@ const Header = () =>  (
         </Link>
       </li>
       <li>
-        <a href="https://juubey.github.io/Juubey/">
+        <a href="https://njonjo.is-a.dev/">
           <NavLink>Resume</NavLink>
         </a>
       </li>
